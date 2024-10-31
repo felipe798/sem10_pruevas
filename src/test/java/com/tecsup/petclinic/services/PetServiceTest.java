@@ -37,6 +37,7 @@ public class PetServiceTest {
         } catch (PetNotFoundException e) {
             fail(e.getMessage());
         }
+
         assertEquals(NAME_EXPECTED, pet.getName());
     }
 
